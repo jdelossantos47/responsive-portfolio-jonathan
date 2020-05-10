@@ -1,0 +1,52 @@
+
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.profile-img {  
+    width: 275px;
+    height: 275px;
+  }
+  .mb-3 {
+    border-radius: 5px;   
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    width: 800px;
+    margin-top: 25px;
+  }
+  
+   footer {
+    height: 106px;
+  }
+  
+  .font-icons {
+    font-size: 30px;
+  }
+  
+  .porfolio-footer {   /* Portfolio footer needs different height */
+    height: 117px;
+  }
+
+    .navbar-brand {
+        margin-top: 10px !important;
+
+    }
+    
+    footer {
+        width:100%;
+        min-height:100px;    
+        background-color: #222; /* This color gets inverted color or you can add navbar inverse class in html */
+    }
+    .font-icons {
+        font-size: 50px;
+       
+    }
+    .Name {
+        color: black;
+    }
+    .mt-5 {
+        background-color: darkgrey;
+        border: #222;
+    }
+    
