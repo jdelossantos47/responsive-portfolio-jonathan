@@ -1,13 +1,14 @@
+/*responsive*/
+@media (min-width: 225px) and (max-width: 4800px) {
 nav {
   background-color: rgb(196, 221, 233);
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 body {
   background-image: url("abstract-architecture-background-buildings-370717.jpg");
   margin-bottom: 40px;
+}
 }
 .navbar-brand {
   font-size: 30px;
@@ -55,6 +56,8 @@ hr {
 .button-dark {
   margin-bottom: 10px;
 }
+/*responsive*/
+@media (min-width: 225px) and (max-width: 4800px){ 
  footer {
     background-color: rgb(196, 221, 233);
     position: fixed;
@@ -72,7 +75,7 @@ hr {
 #icono {
   color: black;
 }
- 
+}
  
 
 /*  About page style */
@@ -111,7 +114,8 @@ hr {
 }
 
 /*  portfolio page style */
-
+/*responsive*/
+@media (min-width: 225px) and (max-width: 4800px){
 .card-img-top {
     height: 200px;
     width: 300px;
@@ -146,7 +150,7 @@ hr {
   font-family: 'Times New Roman', Times, serif;
   
 }
-
+}
 
 
 
