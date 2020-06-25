@@ -1,52 +1,154 @@
-
-
-body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+nav {
+  background-color: rgb(196, 221, 233);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
-.profile-img {  
-    width: 275px;
-    height: 275px;
-  }
-  .mb-3 {
-    border-radius: 5px;   
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-    width: 800px;
-    margin-top: 25px;
-  }
-  
-   footer {
-    height: 106px;
-  }
-  
-  .font-icons {
-    font-size: 30px;
-  }
-  
-  .porfolio-footer {   /* Portfolio footer needs different height */
-    height: 117px;
+
+body {
+  background-image: url("abstract-architecture-background-buildings-370717.jpg");
+  margin-bottom: 40px;
+}
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+}
+.navbar-nav {
+  font-size: 20px;
+}
+
+
+h1 {
+    margin-left: 20px;
+    font-size: 40px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    background: black;
   }
 
-    .navbar-brand {
-        margin-top: 10px !important;
+  #bio-picture {
+    height: 400px;
+    width: 600px;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+}
 
-    }
+#bio {
+    font-family: 'Dosis', sans-serif;
+    font-size: 10px;
+    height: 400px;
+    width: 650px;
+    margin: auto;
+    line-height: 1.5;
+ }
+.button-dark {
+  margin-bottom: 10px;
+}
+ footer {
+    background-color: rgb(196, 221, 233);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+
+ }
+ .p-0 {
+   font-size: 40px;
+ }
+ 
+#icono {
+  color: black;
+}
+ 
+ 
+
+/*  About page style */
+.container {
+    background-color: rgb(228, 233, 233);
+    border-radius:5px;
+    padding: 30px;
+
+}
+
+#bio-picture {
+    height: 575px;
+    width: 400px;
+    border-radius: 30px;
+    margin: auto;
+    padding: 20px;
+}
+
+#bio {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    height: 550px;
+    width: 400px;
+    margin: auto;
+    line-height: 1.9;
+ }
+
+
+
+/* contact page style */
+
+.contact-f {
     
-    footer {
-        width:100%;
-        min-height:100px;    
-        background-color: #222; /* This color gets inverted color or you can add navbar inverse class in html */
-    }
-    .font-icons {
-        font-size: 50px;
-       
-    }
-    .Name {
-        color: black;
-    }
-    .mt-5 {
-        background-color: darkgrey;
-        border: #222;
-    }
+    border-radius: 5px;
+    padding: 30px;
+}
+
+/*  portfolio page style */
+
+.card-img-top {
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card {
+    border-radius: 5px;
     
+  }
+
+.card-deck {
+  border-radius: 5px;
+  padding: 15px;
+  margin-right: auto;
+}
+
+.card-title, .card-text {
+    text-align: center;
+   
+}
+
+.card-body {
+  text-align: center;
+  margin-top: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+.card-text {
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+
+
+
+
+

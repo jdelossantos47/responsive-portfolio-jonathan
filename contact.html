@@ -3,7 +3,7 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -12,85 +12,89 @@
     <title>Responsive Portfolio</title>
   </head>
   <body>
-    <div class="About-container container-fluid">
-      <div class="row">
-        <div class="col-12 p-0">
-          <!-- As a heading -->
-         <nav class="navbar navbar-light bg-light">
-          <span class="navbar-brand mb-6 h1">Jonathan De Los Santos</span>
-           <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link active" href="./index.html">About</a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+
+      <span class="navbar-brand mb-0 h1">Jonathan De Los Santos</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>  
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link jds-2 active" href="./index.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./portfolio.html">Portfolio</a>
+              <a class="nav-link jds-2" href="./portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./contact.html">Contact</a>
+              <a class="nav-link jds-2" href="./contact.html">Contact</a>
             </li>
           </ul>
+          </div>
        </nav>
+   <br>
+  
+   <!-- Main Area -->
+   <div class="container">
+     <div class="contact-f">
+    <header>
+        <div class="row">
+            <h1>Contact</h1>
+           </div> 
+    </header>
+
+    <hr>
+  <form>
+   <div class="form-group">
+      <label for="exampleFormControlInput1">Name</label>
+      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
     </div>
-  </div>
-  <div class="row">
-    <div class="col-12">
-      <section class="contact-card card mx-auto p-5 my-5 text-right">
-        <h5 class="text-info title-cards text-left">Contact</h5>
-        <!-- Form inputs -->
-        <div class="name-input input-group mt-5 mb-3">
-          <div class="input-group-prepend">
-            <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
-          </div>
-          <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
-        </div>
-        <div class="mail-input input-group mb-3">
-          <input type="text" class="form-control" placeholder="hello" aria-label="hello"
-                 aria-describedby="basic-addon2">
-          <div class="input-group-append">
-            <span class="input-group-text" id="basic-addon2">@example.com</span>
-          </div>
-        </div>
-        <div class="message-input input-group h-100">
-          <div class="input-group-prepend">
-            <span class="input-group-text">Message</span>
-          </div>
-          <textarea class="form-control" aria-label="Message"></textarea>
-        </div>
-        <!-- Form inputs ends -->
-        <button type="button" class="btn btn-outline-info mt-5">Submit</button>
-        <!-- Button to submit the user data that it gets on the inputs -->
-      </section>
-    
+
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Email</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@gmail.com">
+    </div>
+
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Message</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+  <input class="btn btn-dark" type="submit" value="Submit"> 
+</form>
+
+</div>
+
+</div>
+
+<div class="row">
+  <div class="col-12 p-0">
+<footer class="footer navbar-fixed-bottom">
+  <ul class="nav justify-content-center">
+       <li class="m-8 list-unstyled">
+         <a class="text-light font-icons mx-5" href="https://github.com/jdelossantos47"><i class="fab fa-github" id="icono"></i></a> 
+       </li>
+       <li class="m-8 list-unstyled">
+         <a class="text-light font-icons mx-5" href="mailto: toleto2013@gmail.com">
+           <i class="far fa-envelope"  id="icono"></i></a>
+       </li>
+       <li class="m-8 list-unstyled">
+         <a class="text-light font-icons mx-5" href="https://www.linkedin.com/in/jonathan-de-los-santos-abb7081a6/">
+           <i class="fab fa-linkedin"  id="icono"></i></a>
+       </li>
+
+     </ul>
       </div>
-    </div>
-   
-    <div class="row">
-      <div class="col-12 p-0">
-    <footer class="footer navbar-fixed-bottom">
-      
-
-         <ul class="nav justify-content-center">
-            <li class="m-8 list-unstyled">
-              <a class="text-light font-icons mx-5" href="https://github.com/jdelossantos47"><i class="fab fa-github"></i></a> 
-            </li>
-            <li class="m-8 list-unstyled">
-              <a class="text-light font-icons mx-5" href="mailto: toleto2013@gmail.com"><i
-                class="far fa-envelope"></i></a>
-            </li>
-          </ul> <!-- Media links closed -->
-  </div>
-        </footer>
-
-
+        </div> 
+</footer>
+</body>
+</html>
 
 
   
-  </body>
-</html>
+
     
 
 
 
   
-  </body>
-</html>
