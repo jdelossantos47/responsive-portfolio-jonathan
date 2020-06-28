@@ -1,4 +1,4 @@
-# responsive-portfolio-jonathan
+# Updated responsive-portfolio-jonathan
 using bootstrap develop portfolio site
 Functional, deployed application
 
@@ -15,4 +15,4 @@ personalized information. (bio, name, images, links to social media, etc.)
 
 properly utilized Bootstrap components and grid system.
 
-information:https://jdelossantos47.github.io/responsive/
+information:https://jdelossantos47.github.io/responsive-portfolio-jonathan/
